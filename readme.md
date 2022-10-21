@@ -1,1 +1,1 @@
-zuri w3 - w5 tasks
+zuri w3 tasks
