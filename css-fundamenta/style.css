@@ -85,6 +85,7 @@ a.nav-link{
 #home{ 	
 	margin: auto;
 	height: 100vh;
+  padding-top: 60px;
 	color: var(--main-fonts-color);
 	display: flex;
 	flex-direction: column;
@@ -112,6 +113,11 @@ a.nav-link{
 	padding: 20px;
 }
 
+.pic-img{
+  width: 15rem;
+  border-radius: 50%;
+}
+
 .intro  p{
     margin: 5px;
 	font-size:1.2rem;
@@ -125,6 +131,16 @@ a.nav-link{
     font-family: var(--main-font-family);
 	font-style: normal;
 	font-size: 60px;
+	color: var(--main-fonts-color);
+	text-shadow: 0px 0px 40px var(--main-decor-color);
+}
+
+ h4{
+	padding-bottom: 5px;
+    letter-spacing: normal;
+    font-family: var(--main-font-family);
+	font-style: normal;
+	font-size: 30px;
 	color: var(--main-fonts-color);
 	text-shadow: 0px 0px 40px var(--main-decor-color);
 }
@@ -157,6 +173,59 @@ a.nav-link{
 .social-media  a:hover {
 	color: var(--main-decor-color);
 	text-shadow: 0 0 50px var(--main-decor-color);
+}
+
+/*-------------
+    about
+--------------*/
+#about{
+	margin-top:100px;
+  height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+	text-align:center;
+	color: var(--main-fonts-color);
+}
+
+#about p{
+	font-family: var(--main-font-family);
+	font-size:1.2rem;
+	padding: 10px;
+}
+
+
+/*-------------
+    service
+--------------*/
+#service{
+	margin-top:100px;
+  height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+	text-align:center;
+	color: var(--main-fonts-color);
+}
+
+#service p{
+	font-family: var(--main-font-family);
+	font-size:1.5rem;
+	padding: 10px;
+}
+
+#service > ul{
+  list-style: none;
+    margin-top: 50px;
+}
+
+#service ul > li{
+  font-family: var(--main-font-family);
+	font-size:1.2rem;
+	padding: 5px;
+  text-align: flex-start;
 }
 
 /*──────────────────
@@ -250,6 +319,55 @@ a.nav-link{
 	font-family: var(--main-font-family);
 }
 
+/* Contact Page */
+.contact{
+	margin: auto;
+	padding-bottom: 20px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--main-fonts-color);
+}
+	
+.contact p{
+	padding:10px;
+	text-align:center;
+	font-size:1.2rem;
+	font-family: var(--main-font-family);
+}
+
+.contact-form{
+  width: 80%;
+  padding-top: 100px;
+  height:100vh;
+}
+
+.contact-form label{
+  color: var(--main-decor-color);
+  font-size: 1.2rem;
+}
+
+.contact-form input, .contact-form textarea{
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.contact-form button{
+  padding: 20px;
+  border-radius: 30px;
+  background: var(--main-decor-color);
+  color: var(--main-fonts-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form > h3{
+  font-size: 40px;
+}
+
 /*────────────────── 
        footer
 ──────────────────*/
@@ -277,6 +395,7 @@ footer {
 .copyright a:hover{
 	color: var(--main-decor-color);
 }
+
 
 /*──── hr ─────*/
 
@@ -367,6 +486,17 @@ hr {
 	#home, #projects, #contact{
         overflow-x: hidden;
 	}
+  #home{ 	
+	height: auto;
+  }
+  #home h3{
+	padding-bottom: 15px;
+	font-size: 40px;
+  }
+  #home h4{
+	padding-bottom: 15px;
+	font-size: 20px;
+  }
 	header{
 		background-color: var(--main-header-background);
 	}
