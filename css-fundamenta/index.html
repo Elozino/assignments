@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Portfolio site template</title>
+    <title>Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
@@ -20,7 +20,7 @@
     <div class="container">
       <!--────────────────Header───────────────-->
       <header>
-        <a class="logo" href="#home">
+        <a class="logo" href="/">
           <!--               <img src="https://newsletter-images--timmy-i-chen.repl.co/logo-light.png" alt="repl logo" /> -->
           <h1>Portfolio</h1>
         </a>
@@ -29,7 +29,8 @@
             <div class="bg"></div>
             <li><a class="nav-link active" href="#home">Home</a></li>
             <li><a class="nav-link" href="#projects">Projects</a></li>
-            <li><a class="nav-link" href="#contact">Contact</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
 
           <div class="hamburger">
@@ -44,13 +45,19 @@
         <div id="home">
           <div class="filter"></div>
           <section class="intro">
+             <img
+                  class="pic-img"
+                  src="zino.jpg"
+                />
             <h3>
               Elozino Ovedhe
               <hr />
             </h3>
-            <p>Short Description.</p>
-            <p>Something more about yourself.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <h4>Fullstack Developer.</h4>
+            <p>
+              I am from Lagos, Nigeria. I love designing and building websites, web apps and mobile applications.
+            </p>
+            <p>Currently an Intern with Zuri</p>
 
             <!--────social media links─────-->
 
@@ -71,6 +78,37 @@
           </section>
         </div>
 
+        <!---------------- About ----------------->
+        <div id="about">
+          <h3>
+            About Me
+            <hr />
+          </h3>
+          <p>
+            My name is Elozino Ovedhe. I am a Fullstack Javascript developer, UI designer, a tech enthusiast and a Mechanical Engineer.
+          </p>
+          <p>While not coding i prefer to meditate, watch film, catch on my fun things and stay with #family.
+          </p>
+          <p>
+            Aside coding, I love to get my hands dirty on thing I enjoy or I feel are perquisite to life. My hobbies?? OOps!! Anything thing that makes me happy is my hobby.
+          </p>
+        </div>
+
+        <!---------------- Service ----------------->
+        <div id="service">
+          <h3>
+            Services
+            <hr />
+          </h3>
+          <p>
+            My services include;
+          </p>
+          <ul>
+            <li>Web Development</li>
+            <li>Cross-platform Mobile Development</li>
+          </ul>
+        </div>
+
         <!--───────────────Projects───────────────-->
         <div id="projects">
           <h3>
@@ -84,72 +122,48 @@
               <div class="card">
                 <img
                   class="work-img"
-                  src="https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80"
+                  src="fitness.png"
                 />
-                <a href="" target="_blank">
+                <a href="https://fitness-app-two.vercel.app/" target="_blank">
                   <!--Link to project-->
                   <div class="work-content">
-                    Lorem ipsum dolor sit amet consectetur.
+                   Fitness app that help you stay healthy.
                   </div></a
                 >
               </div>
               <div class="card">
                 <img
                   class="work-img"
-                  src="https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80"
+                  src="realtor.png"
                 />
-                <a href="" target="_blank">
+                <a href="https://realtor-chi-ashy.vercel.app/" target="_blank">
                   <!--Link to project-->
                   <div class="work-content">
-                    Lorem ipsum dolor sit amet consectetur.
+                    Realtor: A real estate app to buy and lease.
                   </div></a
                 >
               </div>
               <div class="card">
                 <img
                   class="work-img"
-                  src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                  src="fudo.png"
                 />
-                <a href="" target="_blank">
+                <a href="https://pizza-shop-ten.vercel.app/" target="_blank">
                   <!--Link to project-->
                   <div class="work-content">
-                    Lorem ipsum dolor sit amet consectetur.
+                    Food ordering app with stripe payment
                   </div></a
                 >
               </div>
               <div class="card">
                 <img
                   class="work-img"
-                  src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                  src="movie.png"
                 />
-                <a href="" target="_blank">
+                <a href="https://movie-app-ten-coral.vercel.app/" target="_blank">
                   <!--Link to project-->
                   <div class="work-content">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </div></a
-                >
-              </div>
-              <div class="card">
-                <img
-                  class="work-img"
-                  src="https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=781&q=80"
-                />
-                <a href="" target="_blank">
-                  <!--Link to project-->
-                  <div class="work-content">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </div></a
-                >
-              </div>
-              <div class="card">
-                <img
-                  class="work-img"
-                  src="https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                />
-                <a href="" target="_blank">
-                  <!--Link to project-->
-                  <div class="work-content">
-                    Lorem ipsum dolor sit amet consectetur.
+                    Get the latest movie with their rating
                   </div></a
                 >
               </div>
@@ -184,7 +198,7 @@
       </main>
       <footer class="copyright">
         <a href="https://repl.it/@lilykhan" target="_blank"
-          >Thanks to Lilykhan.</a
+          >Zuri Portfolio Task</a
         >
       </footer>
     </div>
