@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgc: chocolate;
+  --txt-color: white;
+}
+
+body {
+  background-color: var(--bgc);
+  color: var(--txt-color);
+}
+
+a{
+  color: var(--txt-color);
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+form {
+  width: 500px;
+  display: grid;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px 0;
+}
+
+form h1{
+  margin-bottom: 20px;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+form label,
+p {
+  /* color: firebrick; */
+  font-size: 1.3rem;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+form > div > div label {
+  font-size: inherit;
+  color: var(--txt-color);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+  outline: none;
+}
+
+form input[type="color"] {
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+.inputField > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 5px;
+}
+
+.inputField > div > input {
+  width: auto;
+  margin: 0;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(219, 216, 216, 0.3);
+  margin-top: 20px;
+}
+
+.page{
+  margin-top: 20px;
+}
+
+.success{
+  text-align: center;
+}
+
+.success a{
+  color: #000;
+}
+
+/* button:hover{
+  transform: scale(.8);
+} */
+
+@media screen and (max-width: 500px) {
+  form {
+    width: 80%;
+    height: auto;
+  }
+}
